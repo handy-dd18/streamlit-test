@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+pandas = "*"
+datasets = "*"
+scikit-learn = "*"
+matplotlib = "*"
+bokeh = "==2.4.3"
+requests = "*"
+boxsdk = "*"
+urllib3 = "*"
+cryptography = "*"
+jwt = "*"
+streamlit-aggrid = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
